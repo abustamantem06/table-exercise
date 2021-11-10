@@ -4,13 +4,13 @@
 You can install this project by running the following commands in the directory where you want to clone the repo:
 ```
 # clone repo
-> git clone
+$   git clone https://github.com/abustamantem06/relo-table-exercise.git
 
 # move to the project folder
-> cd relo-table-exercise
+$   cd relo-table-exercise
 
 # install dependencies
-> npm install
+$   npm install
 
 ```
 
@@ -26,7 +26,7 @@ The testing side is conformed by 5 suites, including unit tests and snapshot tes
 ### Running tests
 Running next command in project folder would run all tests
 ```
-npm test
+$   npm test
 ```
 
 Test results should match:
