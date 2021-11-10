@@ -43,6 +43,8 @@ Snapshots:   6 passed, 6 total
 ```
 
 ## Acceptance criteria
+
+**Required:**
 * [x] Create a new React single page application.
 - [x] Based on the attached mockup, UI includes filters and table displaying all APIs matching applied filters.
 - [x] User can select from the following accepted filter on each parameter (view
