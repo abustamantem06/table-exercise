@@ -1,4 +1,4 @@
-# React exercise
+# React table exercise
 
 ## Installation
 You can install this project by running the following commands in the directory where you want to clone the repo:
