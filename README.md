@@ -1,17 +1,22 @@
 # React table exercise
 
 ## Installation
-You can install this project by running the following commands in the directory where you want to clone the repo:
+You can install this project by running following the next steps:
+
+1. Clone repo
 ```
-# clone repo
 $   git clone https://github.com/abustamantem06/relo-table-exercise.git
+```
 
-# move to the project folder
+2. Move to the project folder
+```
 $   cd relo-table-exercise
+```
 
-# install dependencies
+3. Install dependencies
+**Note:** node version used during the development of this project was `16.13.0`, try moving to this version if there is a problem during  installation of dependencies.
+```
 $   npm install
-
 ```
 
 ## Running the project
@@ -29,7 +34,7 @@ Running next command in project folder would run all tests
 $   npm test
 ```
 
-Test results should match:
+Last results from `npm test` when pushing this code:
 ```
 Test Suites: 5 passed, 5 total
 Tests:       14 passed, 14 total
