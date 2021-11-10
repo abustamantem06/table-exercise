@@ -1,0 +1,18 @@
+.pagination-btn {
+    width: 100%;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table > thead > tr {
+    color: #FFF;
+    background-color: #012D61;
+}
+
+table > tbody > tr > td {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

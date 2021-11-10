@@ -1,0 +1,3303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApiTableData renders correctly when data has less then max elements per page 1`] = `
+<div
+  className="p-2"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <table
+        className="table table-striped table-bordered table-hover"
+        role="table"
+      >
+        <thead>
+          <tr
+            role="row"
+          >
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Name
+              <span>
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-caret-up fa-w-10 ms-1"
+                  data-icon="caret-up"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 320 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Description
+              <span>
+                
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Category
+              <span>
+                
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Link
+              <span>
+                
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          role="rowgroup"
+        >
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              name test
+            </td>
+            <td
+              role="cell"
+            >
+              description test
+            </td>
+            <td
+              role="cell"
+            >
+              category test
+            </td>
+            <td
+              role="cell"
+            >
+              <button
+                className="btn btn btn-primary"
+                disabled={false}
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-lg yellow-bg pagination-btn text-white btn btn-primary"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-caret-left fa-w-6 "
+          data-icon="caret-left"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="text-center col"
+    >
+      Page
+      <input
+        max={1}
+        min="1"
+        onChange={[Function]}
+        type="number"
+        value={1}
+      />
+      of 
+      1
+    </div>
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-lg yellow-bg pagination-btn text-white btn btn-primary"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-caret-right fa-w-6 "
+          data-icon="caret-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ApiTableData renders correctly when data has more than max elements per page 1`] = `
+<div
+  className="p-2"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <table
+        className="table table-striped table-bordered table-hover"
+        role="table"
+      >
+        <thead>
+          <tr
+            role="row"
+          >
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Name
+              <span>
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-caret-up fa-w-10 ms-1"
+                  data-icon="caret-up"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 320 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Description
+              <span>
+                
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Category
+              <span>
+                
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Link
+              <span>
+                
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          role="rowgroup"
+        >
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              A Bíblia Digital
+            </td>
+            <td
+              role="cell"
+            >
+              Do not worry about managing the multiple versions of the Bible
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://www.abibliadigital.com.br/en"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AbuseIPDB
+            </td>
+            <td
+              role="cell"
+            >
+              IP/domain/URL reputation
+            </td>
+            <td
+              role="cell"
+            >
+              Anti-Malware
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://docs.abuseipdb.com/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AdoptAPet
+            </td>
+            <td
+              role="cell"
+            >
+              Resource to help get pets adopted
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://www.adoptapet.com/public/apis/pet_list.html"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AlienVault Open Threat Exchange (OTX)
+            </td>
+            <td
+              role="cell"
+            >
+              IP/domain/URL reputation
+            </td>
+            <td
+              role="cell"
+            >
+              Anti-Malware
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://otx.alienvault.com/api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Améthyste
+            </td>
+            <td
+              role="cell"
+            >
+              Generate images for Discord users
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://api.amethyste.moe/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AniAPI
+            </td>
+            <td
+              role="cell"
+            >
+              Anime discovery, streaming & syncing with trackers
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://aniapi.com/docs/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AniDB
+            </td>
+            <td
+              role="cell"
+            >
+              Anime Database
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://wiki.anidb.net/HTTP_API_Definition"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AniList
+            </td>
+            <td
+              role="cell"
+            >
+              Anime discovery & tracking
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://github.com/AniList/ApiV2-GraphQL-Docs"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AnimeChan
+            </td>
+            <td
+              role="cell"
+            >
+              Anime quotes (over 10k+)
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://github.com/RocktimSaikia/anime-chan"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AnimeFacts
+            </td>
+            <td
+              role="cell"
+            >
+              Anime Facts (over 100+)
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://chandan-02.github.io/anime-facts-rest-api/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              AnimeNewsNetwork
+            </td>
+            <td
+              role="cell"
+            >
+              Anime industry news
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://www.animenewsnetwork.com/encyclopedia/api.php"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Apache Superset
+            </td>
+            <td
+              role="cell"
+            >
+              API to manage your BI dashboards and data sources on Superset
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://superset.apache.org/docs/rest-api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Art Institute of Chicago
+            </td>
+            <td
+              role="cell"
+            >
+              Art
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://api.artic.edu/docs/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Auth0
+            </td>
+            <td
+              role="cell"
+            >
+              Easy to implement, adaptable authentication and authorization platform
+            </td>
+            <td
+              role="cell"
+            >
+              Authentication
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://auth0.com"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Axolotl
+            </td>
+            <td
+              role="cell"
+            >
+              Collection of axolotl pictures and facts
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://theaxolotlapi.netlify.app/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Bhagavad Gita
+            </td>
+            <td
+              role="cell"
+            >
+              Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://docs.bhagavadgitaapi.in"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Bhagavad Gita
+            </td>
+            <td
+              role="cell"
+            >
+              Bhagavad Gita text
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://bhagavadgita.io/api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Bhagavad Gita telugu
+            </td>
+            <td
+              role="cell"
+            >
+              Bhagavad Gita API in telugu and odia languages
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://gita-api.vercel.app"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Bitquery
+            </td>
+            <td
+              role="cell"
+            >
+              Onchain GraphQL APIs & DEX APIs
+            </td>
+            <td
+              role="cell"
+            >
+              Blockchain
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://graphql.bitquery.io/ide"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              British National Bibliography
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="http://bnb.data.bl.uk/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Cat Facts
+            </td>
+            <td
+              role="cell"
+            >
+              Daily cat facts
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://alexwohlbruck.github.io/cat-facts/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Cataas
+            </td>
+            <td
+              role="cell"
+            >
+              Cat as a service (cats pictures and gifs)
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://cataas.com/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Cats
+            </td>
+            <td
+              role="cell"
+            >
+              Pictures of cats from Tumblr
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://docs.thecatapi.com/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Chainlink
+            </td>
+            <td
+              role="cell"
+            >
+              Build hybrid smart contracts with Chainlink
+            </td>
+            <td
+              role="cell"
+            >
+              Blockchain
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://chain.link/developer-resources"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Chainpoint
+            </td>
+            <td
+              role="cell"
+            >
+              Chainpoint is a global network for anchoring data to the Bitcoin blockchain
+            </td>
+            <td
+              role="cell"
+            >
+              Blockchain
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://tierion.com/chainpoint/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Charity Search
+            </td>
+            <td
+              role="cell"
+            >
+              Non-profit charity data
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="http://charityapi.orghunter.com/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Clearbit Logo
+            </td>
+            <td
+              role="cell"
+            >
+              Search for company logos and embed them in your projects
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://clearbit.com/docs#logo-api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Colormind
+            </td>
+            <td
+              role="cell"
+            >
+              Color scheme generator
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="http://colormind.io/api-access/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              ColourLovers
+            </td>
+            <td
+              role="cell"
+            >
+              Get various patterns, palettes and images
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="http://www.colourlovers.com/api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Cooper Hewitt
+            </td>
+            <td
+              role="cell"
+            >
+              Smithsonian Design Museum
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://collection.cooperhewitt.org/api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Covalent
+            </td>
+            <td
+              role="cell"
+            >
+              Multi-blockchain data aggregator platform
+            </td>
+            <td
+              role="cell"
+            >
+              Blockchain
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://www.covalenthq.com/docs/api/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Crossref Metadata Search
+            </td>
+            <td
+              role="cell"
+            >
+              Books & Articles Metadata
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://github.com/CrossRef/rest-api-doc"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Danbooru Anime
+            </td>
+            <td
+              role="cell"
+            >
+              Thousands of anime artist database to find good anime art
+            </td>
+            <td
+              role="cell"
+            >
+              Anime
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://danbooru.donmai.us/wiki_pages/help:api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Dog Facts
+            </td>
+            <td
+              role="cell"
+            >
+              Random dog facts
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://dukengn.github.io/Dog-facts-API/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Dog Facts
+            </td>
+            <td
+              role="cell"
+            >
+              Random facts of Dogs
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://kinduff.github.io/dog-api/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Dogs
+            </td>
+            <td
+              role="cell"
+            >
+              Based on the Stanford Dogs Dataset
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://dog.ceo/dog-api/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Domainsdb.info
+            </td>
+            <td
+              role="cell"
+            >
+              Registered Domain Names Search
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://domainsdb.info/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Dribbble
+            </td>
+            <td
+              role="cell"
+            >
+              Discover the world’s top designers & creatives
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://developer.dribbble.com"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Etherscan
+            </td>
+            <td
+              role="cell"
+            >
+              Ethereum explorer API
+            </td>
+            <td
+              role="cell"
+            >
+              Blockchain
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://etherscan.io/apis"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Europeana
+            </td>
+            <td
+              role="cell"
+            >
+              European Museum and Galleries content
+            </td>
+            <td
+              role="cell"
+            >
+              Art & Design
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://pro.europeana.eu/resources/apis/search"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              FishWatch
+            </td>
+            <td
+              role="cell"
+            >
+              Information and pictures about individual fish species
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://www.fishwatch.gov/developers"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Freelancer
+            </td>
+            <td
+              role="cell"
+            >
+              Hire freelancers to get work done
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://developers.freelancer.com/docs"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Gmail
+            </td>
+            <td
+              role="cell"
+            >
+              Flexible, RESTful access to the user's inbox
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://developers.google.com/gmail/api/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Goodreads
+            </td>
+            <td
+              role="cell"
+            >
+              Developers Access to Goodreads data
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://www.goodreads.com/api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Google Analytics
+            </td>
+            <td
+              role="cell"
+            >
+              Collect, configure and analyze your data to reach the right audience
+            </td>
+            <td
+              role="cell"
+            >
+              Business
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://developers.google.com/analytics/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Google Books
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://developers.google.com/books/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Google Safe Browsing
+            </td>
+            <td
+              role="cell"
+            >
+              Google Link/Domain Flagging
+            </td>
+            <td
+              role="cell"
+            >
+              Anti-Malware
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://developers.google.com/safe-browsing/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              GurbaniNow
+            </td>
+            <td
+              role="cell"
+            >
+              Fast and Accurate Gurbani RESTful API
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://github.com/GurbaniNow/api"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              Gutendex
+            </td>
+            <td
+              role="cell"
+            >
+              Web-API for fetching data from Project Gutenberg Books Library
+            </td>
+            <td
+              role="cell"
+            >
+              Books
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://gutendex.com/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+          <tr
+            role="row"
+          >
+            <td
+              role="cell"
+            >
+              HTTPCat
+            </td>
+            <td
+              role="cell"
+            >
+              Cat for every HTTP Status
+            </td>
+            <td
+              role="cell"
+            >
+              Animals
+            </td>
+            <td
+              role="cell"
+            >
+              <a
+                className="btn btn btn-primary"
+                href="https://http.cat/"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "backgroundColor": "#FDBD2F",
+                  }
+                }
+                tabIndex={0}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-lg yellow-bg pagination-btn text-white btn btn-primary"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-caret-left fa-w-6 "
+          data-icon="caret-left"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="text-center col"
+    >
+      Page
+      <input
+        max={3}
+        min="1"
+        onChange={[Function]}
+        type="number"
+        value={1}
+      />
+      of 
+      3
+    </div>
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-lg yellow-bg pagination-btn text-white btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-caret-right fa-w-6 "
+          data-icon="caret-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ApiTableData renders correctly without data 1`] = `
+<div
+  className="p-2"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <table
+        className="table table-striped table-bordered table-hover"
+        role="table"
+      >
+        <thead>
+          <tr
+            role="row"
+          >
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Name
+              <span>
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-caret-up fa-w-10 ms-1"
+                  data-icon="caret-up"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 320 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Description
+              <span>
+                
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Category
+              <span>
+                
+              </span>
+            </th>
+            <th
+              colSpan={1}
+              onClick={[Function]}
+              role="columnheader"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              title="Toggle SortBy"
+            >
+              Link
+              <span>
+                
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          role="rowgroup"
+        />
+      </table>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-lg yellow-bg pagination-btn text-white btn btn-primary"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-caret-left fa-w-6 "
+          data-icon="caret-left"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="text-center col"
+    >
+      Page
+      <input
+        max={0}
+        min="1"
+        onChange={[Function]}
+        type="number"
+        value={1}
+      />
+      of 
+      0
+    </div>
+    <div
+      className="col"
+    >
+      <button
+        className="btn btn-lg yellow-bg pagination-btn text-white btn btn-primary"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-caret-right fa-w-6 "
+          data-icon="caret-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 192 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
