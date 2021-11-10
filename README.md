@@ -1,5 +1,6 @@
 # React table exercise
 
+You can observe a demo of this code running [here](https://dev.d3385xbtgi31hb.amplifyapp.com/).
 ## Installation
 You can install this project by running following the next steps:
 
